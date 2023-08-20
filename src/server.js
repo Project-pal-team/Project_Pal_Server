@@ -10,7 +10,7 @@ app.use(express.static(path.join(__dirname, "..", "public")));
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.status(200).send("/Welcome to the Project Pal App");
+  res.status(200).send("Welcome to the Project Pal App");
 });
 
 app.listen(PORT, () => {
