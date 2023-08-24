@@ -8,7 +8,7 @@
     "test": "jest",
     "watch": "nodemon src/server.js",
     "start": "node src/server.js",
-    "lint": "npx eslint src"
+    "lint": "npx eslint ."
   },
   "keywords": [],
   "author": "",
