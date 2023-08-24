@@ -8,7 +8,7 @@
     "test": "jest",
     "watch": "nodemon src/server.js",
     "start": "node src/server.js",
-    "sydney": "node src/sydney.js"
+    "lint": "npx eslint src"
   },
   "keywords": [],
   "author": "",
@@ -28,7 +28,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run sydney"
+      "pre-commit": "npm run lint"
     }
   }
 }
