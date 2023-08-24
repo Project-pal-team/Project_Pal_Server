@@ -2,7 +2,7 @@ import path from "path";
 import express from "express";
 
 const app = express();
-const testing = 5;
+// const testing = 5;
 
 const PORT = 3000;
 
