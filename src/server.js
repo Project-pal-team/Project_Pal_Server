@@ -1,9 +1,12 @@
-const path = require("path");
-const express = require("express");
+import path from "path";
+import express from "express";
 
 const app = express();
 
 const PORT = 3000;
+
+// Get the directory name using import.meta.url
+const __dirname = path.dirname(new URL(import.meta.url).pathname);
 
 app.use(express.static(path.join(__dirname, "..", "public")));
 
