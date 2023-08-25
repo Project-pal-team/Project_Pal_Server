@@ -4,7 +4,7 @@ import express from "express";
 const app = express();
 // const testing = 5;
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 // Get the directory name using import.meta.url
 const __dirname = path.dirname(new URL(import.meta.url).pathname);
